@@ -1,9 +1,35 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+header{
+    width: 800px;
+    margin:0 auto;
+}
+header h1{
+    color: #ec183f;
 }
 
-html,body{
-    height: 100%;
+main{
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+section > img{
+    width: 100%;
+}
+
+footer{
+    width: 800px;
+    margin: 0 auto;
+}
+ul.redes-sociais{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+ul.redes-sociais li{
+    display: inline-block;
+    padding: 0 10px;
 }
